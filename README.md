@@ -9,6 +9,21 @@ Simple smart contract for learning purposes!
 - [Yarn](https://classic.yarnpkg.com/lang/en/docs/install/) instead of `npm`
 - [ganache](https://trufflesuite.com/ganache/)
 
+## Setup
+
+Clone this repo
+
+```
+git clone git@github.com:Nedick/ethers-simple-storage.git
+cd ethers-simple-storage
+```
+
+Then install dependencies
+
+```
+yarn
+```
+
 # Usage
 
 1. Run your ganache local chain, by hitting `quickstart` on your ganache application
