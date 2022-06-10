@@ -78,3 +78,21 @@ USE A METAMASK THAT DOESNT HAVE ANY REAL FUNDS IN IT. Just in case you accidenta
 ```
 node deploy.js
 ```
+
+# Deployment with encrypted private key
+
+1. Add
+
+```
+PRIVATE_KEY_PASSWORD=your_password_goes_here
+```
+
+to your `.env` file
+
+2. Run
+
+```
+node encryptedKey.js
+```
+
+> Keep in mind that encrypting PRIVATE_KEY in this way complicates the development process significantly!
