@@ -95,4 +95,5 @@ to your `.env` file
 node encryptedKey.js
 ```
 
+> Comment the wallet constant and uncomment the encrypted private key contract deployment section of the script before deploy!
 > Keep in mind that encrypting PRIVATE_KEY in this way complicates the development process significantly!
